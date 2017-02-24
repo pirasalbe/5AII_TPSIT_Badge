@@ -38,8 +38,8 @@ public class badge extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Badge istituto " + request.getParameter("istituto") + "</h1><br>");
-            out.println("<h4>Studente " + request.getParameter("nome") + " " + request.getParameter("cognome") + "</h4><br>");
-            out.println("<h5>Classe " + request.getParameter("classe") + "Nato il " + request.getParameter("data") + "</h5><br>");
+            out.println("<h3>Studente " + request.getParameter("nome") + " " + request.getParameter("cognome") + "</h3><br>");
+            out.println("<h4>Classe " + request.getParameter("classe") + "</h4><br>" + "<h4>Nato il " + request.getParameter("data") + "</h4><br>");
             out.println("</body>");
             out.println("</html>");
         }
